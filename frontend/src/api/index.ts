@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     // 后端 Spring Boot 默认端口
-    baseURL: 'http://localhost:8080/api',
+    baseURL: '/api',
 });
 
 export const courseApi = {
